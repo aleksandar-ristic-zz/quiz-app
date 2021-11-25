@@ -1,4 +1,4 @@
-# Quizz App
+# Quiz App
 
 ## Basic Quiz app made with scss, and vanilla js
 
