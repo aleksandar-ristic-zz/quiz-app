@@ -1,0 +1,24 @@
+.btn {
+    width: 20rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: $main-color;
+
+    border: .1rem solid $main-color;
+    background-color: #fff;
+
+    &:hover {
+        @include hover-effect;
+    }
+
+    &[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        
+        transition: none;
+    }
+}

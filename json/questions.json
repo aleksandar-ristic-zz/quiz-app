@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Inside which HTML element do we put JavaScript?",
+        "choice1": "<scr>",
+        "choice2": "<javascript>",
+        "choice3": "<js>",
+        "choice4": "<script>",
+        "answer": 4
+    },
+    {
+        "question":
+            "What is the correct syntax for reffering to an external script called 'xxx.js?'",
+        "choice1": "<script src='xxx.js'>",
+        "choice2": "<script name='xxx.js'>",
+        "choice3": "<script file='xxx.js'>",
+        "choice4": "<script href='xxx.js'>",
+        "answer": 1   
+    },
+    {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "choice1": "msg.box('Hello World');",
+        "choice2": "message('Hello World');",
+        "choice3": "alert('Hello World');",
+        "choice4": "alert.box('Hello World');",
+        "answer": 3
+    }
+]

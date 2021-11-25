@@ -1,0 +1,12 @@
+$background-color: #dbfafa;
+$font-size: 62.5%;
+$main-color: #18a8a1;
+$shadow-color: #01806f;
+
+@mixin hover-effect {
+    cursor: pointer;
+    box-shadow: 0 .4rem 1.4rem 0 rgba($color: $shadow-color, $alpha: .35);
+
+    transform: translateY(-.1rem);
+    transition: transform 150ms;
+}
